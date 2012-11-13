@@ -1,0 +1,5 @@
+nepomuk-core-runtime: hardening-no-fortify-functions usr/lib/kde4/nepomukfilewatch.so
+nepomuk-core-runtime: package-name-doesnt-match-sonames libnepomukcommon
+nepomuk-core-runtime: shlib-without-versioned-soname usr/lib/libnepomukcommon.so libnepomukcommon.so
+nepomuk-core-runtime: no-symbols-control-file usr/lib/libnepomukcommon.so
+nepomuk-core-runtime: postinst-must-call-ldconfig usr/lib/libnepomukcommon.so

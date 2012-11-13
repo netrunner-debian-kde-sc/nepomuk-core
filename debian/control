@@ -1,0 +1,92 @@
+Source: nepomuk-core
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
+Build-Depends:
+#kde-sc-dev-latest (>= 4:4.9.3)
+ kdelibs5-dev (>= 4:4.9),
+ debhelper (>= 9),
+ cmake (>= 2.6.4),
+ pkg-kde-tools (>= 0.14),
+ libsoprano-dev (>= 2.7.56),
+ shared-desktop-ontologies (>= 0.6.50),
+ libstreamanalyzer-dev (>= 0.7.3)
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/nepomuk-core.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/nepomuk-core.git
+
+Package: nepomuk-core-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, ${allLibraries}, python
+Description: Nepomuk Semantik Desktop core libraries -- development files
+ The core Nepomuk system contains of the central services like file indexing,
+ file system monitoring, query, and of course storage, as well as the
+ corresponding client libraries.
+ .
+ This package contains the development files for nepomuk-core.
+
+Package: nepomuk-core-runtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Nepomuk Semantik Desktop core libraries
+ The core Nepomuk system contains of the central services like file indexing,
+ file system monitoring, query, and of course storage, as well as the
+ corresponding client libraries.
+ .
+ This package contains the runtime files from nepomuk-core.
+
+Package: nepomuk-core-data
+Architecture: all
+Depends: ${misc:Depends}
+Breaks: kde-runtime-data (<< 4:4.8.80)
+Replaces: kde-runtime-data (<< 4:4.8.80)
+Description: Nepomuk Semantik Desktop core libraries -- shared data files
+ The core Nepomuk system contains of the central services like file indexing,
+ file system monitoring, query, and of course storage, as well as the
+ corresponding client libraries.
+ .
+ This package contains the architecure independent files from nepomuk-core.
+
+Package: libnepomuksync4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ nepomuk-core-data (>= ${source:Version})
+Breaks: kde-runtime (<< 4:4.8.80)
+Replaces: kde-runtime (<< 4:4.8.80)
+Description: Nepomuk sync interface for the Backup and Sync service
+ The Nepomuk sync interface provides a convenient way to store and look up
+ Nepomuk resources.
+ .
+ This package contains the Nepomuk Synchronization library.
+
+Package: libnepomukcore4
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ nepomuk-core-data (>= ${source:Version})
+Description: Nepomuk Meta Data Library
+ This is the KDE Meta Data library (not to confuse with KFileMetaData). It
+ consists of the following parts:
+  - The main resource handling centered around Nepomuk::Resource.
+  - The handling of ontologies via classes in the Nepomuk::Types namespace.
+  - The desktop Nepomuk::Query API.
+  - Several utility methods and classes.
+
+Package: nepomuk-core-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: ${misc:Depends}, ${allLibraries},
+ nepomuk-core-runtime (= ${binary:Version})
+Breaks: kde-runtime-dbg (<< 4:4.8.80)
+Replaces: kde-runtime-dbg (<< 4:4.8.80)
+Description: debugging symbols for the Nepomuk Semantik Desktop core libraries
+ The core Nepomuk system contains of the central services like file indexing,
+ file system monitoring, query, and of course storage, as well as the
+ corresponding client libraries.
+ .
+ This package contains debugging files used to investigate problems with the
+ core Nepomuk system mentioned above.
+

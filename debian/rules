@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+
+override_dh_auto_configure:
+	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
+
+.PHONY: override_dh_auto_test
+
+
+override_dh_shlibdeps:
+	$(overridden_command) -- -xkde-runtime
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=nepomuk-core-dbg
+
+# Library stuff
+libpkgs_addsubst_allLibraries = nepomuk-core-dev nepomuk-core-dbg
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk

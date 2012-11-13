@@ -1,0 +1,11 @@
+usr/bin/nepomukbackup
+usr/bin/nepomukindexer
+usr/bin/nepomukserver
+usr/bin/nepomukservicestub
+usr/lib/kde4/nepomukbackupsync.so
+usr/lib/kde4/nepomukfileindexer.so
+usr/lib/kde4/nepomukfilewatch.so
+usr/lib/kde4/nepomukqueryservice.so
+usr/lib/kde4/nepomukstorage.so
+usr/lib/libkdeinit4_nepomukserver.so
+usr/lib/libnepomukcommon.so
