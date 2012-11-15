@@ -196,6 +196,7 @@ License: GPL-2 or GPL-3
 
 Files: debian/*
 Copyright: 2012 Philip Muškovac <yofel@kubuntu.org>
+           2012 José Manuel Santamaría Lema <panfaust@gmail.com>
 License: GPL-2+
 
 Files: cmake/modules/*
