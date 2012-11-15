@@ -1,0 +1,356 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nepomuk-core
+Upstream-Contact: Sebastian Trueg <trueg@kde.org>
+Source: http://ftp.kde.org/pub/kde/
+
+Files: *
+Copyright: 2010,2011 Vishesh Handa <handa.vish@gmail.com>
+           2009-2012 Sebastian Trueg <trueg@kde.org>
+           2010      Dario Freddi <drf@kde.org>
+           2011      Serebriyskiy Artem <v.for.vandal@gmail.com>
+License: LGPL-2.1 or LGPL-3
+
+Files: libnepomukcore/datamanagement/resourcewatcher.cpp
+       libnepomukcore/datamanagement/resourcewatcher.h
+       services/backupsync/gui/guitest/testwidget.cpp
+       services/backupsync/gui/guitest/testwidget.h
+       services/storage/resourceidentifier.cpp
+       services/storage/resourceidentifier.h
+       services/storage/resourcemerger.cpp
+       services/storage/resourcemerger.h
+Copyright: 2010-2011 Vishesh Handa <handa.vish@gmail.com>
+           2011-2012 Sebastian Trueg <trueg@kde.org>
+License: LGPL-2.1+
+
+Files: common/fileexcludefilters.cpp
+       common/fileexcludefilters.h
+       libnepomukcore/query/result.cpp
+       libnepomukcore/query/result.h
+       libnepomukcore/query/term.cpp
+       libnepomukcore/query/term.h
+       libnepomukcore/query/term_p.h
+       libnepomukcore/query/util.h
+       libnepomukcore/query/filequery.cpp
+       libnepomukcore/query/filequery.h
+       libnepomukcore/query/query.cpp
+       libnepomukcore/query/query.h
+       libnepomukcore/query/query_p.h
+       libnepomukcore/query/queryparser.cpp
+       libnepomukcore/query/queryparser.h
+       libnepomukcore/query/queryserializer.cpp
+       libnepomukcore/query/queryserializer.h
+       libnepomukcore/resource/nepomukservice.cpp
+       libnepomukcore/resource/nepomukservice.h
+       server/main.cpp
+       server/nepomukserver.cpp
+       server/nepomukserver.h
+       server/servicecontroller.cpp
+       server/servicecontroller.h
+       server/servicemanager.cpp
+       server/servicemanager.h
+       services/fileindexer/eventmonitor.cpp
+       services/fileindexer/eventmonitor.h
+       services/fileindexer/fileindexer.cpp
+       services/fileindexer/fileindexer.h
+       services/fileindexer/fileindexerconfig.cpp
+       services/fileindexer/fileindexerconfig.h
+       services/fileindexer/indexscheduler.cpp
+       services/fileindexer/indexscheduler.h
+       services/filewatch/metadatamover.cpp
+       services/filewatch/metadatamover.h
+       services/filewatch/nepomukfilewatch.cpp
+       services/filewatch/nepomukfilewatch.h
+       services/queryservice/folder.cpp
+       services/queryservice/folder.h
+       services/queryservice/folderconnection.cpp
+       services/queryservice/folderconnection.h
+       services/queryservice/queryservice.cpp
+       services/queryservice/queryservice.h
+       services/queryservice/searchrunnable.cpp
+       services/queryservice/searchrunnable.h
+       services/storage/nepomukcore.cpp
+       services/storage/nepomukcore.h
+       services/storage/ontologyloader.cpp
+       services/storage/ontologyloader.h
+       services/storage/ontologymanagermodel.cpp
+       services/storage/ontologymanagermodel.h
+       services/storage/ontologyupdatejob.cpp
+       services/storage/ontologyupdatejob.h
+       services/storage/storage.cpp
+       services/storage/storage.h
+       servicestub/priority.cpp
+       servicestub/priority.h
+       servicestub/main.cpp
+       servicestub/servicecontrol.cpp
+       servicestub/servicecontrol.h
+Copyright: 2007-2012 Sebastian Trueg <trueg@kde.org>
+           2010-2011 Vishesh Handa <handa.vish@gmail.com>
+           2006-2007 Jos van den Oever <jos@vandenoever.info>
+License: LGPL-2
+
+Files: common/nepomukcommon_export.h
+       libnepomukcore/nepomuk_export.h
+       libnepomukcore/query/dateparser.cpp
+       libnepomukcore/query/dateparser_p.h
+       libnepomukcore/resource/nepomukmainmodel.cpp
+       libnepomukcore/resource/nepomukmainmodel.h
+       libnepomukcore/resource/resource.cpp
+       libnepomukcore/resource/resource.h
+       libnepomukcore/resource/resourcedata.cpp
+       libnepomukcore/resource/resourcedata.h
+       libnepomukcore/resource/resourcemanager.cpp
+       libnepomukcore/resource/resourcemanager.h
+       libnepomukcore/resource/resourcemanager_p.h
+       libnepomukcore/resource/tag.cpp
+       libnepomukcore/resource/tag.h
+       libnepomukcore/resource/thing.cpp
+       libnepomukcore/resource/thing.h
+       libnepomukcore/resource/tools.cpp
+       libnepomukcore/resource/tools.h
+       libnepomukcore/resource/variant.cpp
+       libnepomukcore/resource/variant.h
+       libnepomukcore/stuff-to-remove-for-kdelibs-5.0/kdbusconnectionpool.cpp
+       libnepomukcore/stuff-to-remove-for-kdelibs-5.0/kdbusconnectionpool.h
+       libnepomukcore/test/resourcetest.h
+       libnepomukcore/test/testbase.h
+       libnepomukcore/test/resourcetest.cpp
+       libnepomukcore/test/testbase.cpp
+       libnepomukcore/types/class.cpp
+       libnepomukcore/types/class.h
+       libnepomukcore/types/class_p.h
+       libnepomukcore/types/entity.cpp
+       libnepomukcore/types/entity.h
+       libnepomukcore/types/entity_p.h
+       libnepomukcore/types/entitymanager.cpp
+       libnepomukcore/types/entitymanager.h
+       libnepomukcore/types/literal.cpp
+       libnepomukcore/types/literal.h
+       libnepomukcore/types/literal_p.h
+       libnepomukcore/types/ontology.cpp
+       libnepomukcore/types/ontology.h
+       libnepomukcore/types/ontology_p.h
+       libnepomukcore/types/property.cpp
+       libnepomukcore/types/property.h
+       libnepomukcore/types/property_p.h
+       server/nepomukserver_export.h
+       server/processcontrol.cpp
+       server/processcontrol.h
+       services/backupsync/lib/nepomuksync_export.h
+       services/backupsync/lib/test/testbase.h
+       services/backupsync/lib/test/testbase.cpp
+       services/backupsync/service/dbusoperators.cpp
+       services/backupsync/service/dbusoperators.h
+       services/filewatch/kinotify.cpp
+       services/filewatch/kinotify.h
+       services/storage/graphretriever.cpp
+       services/storage/graphretriever.h
+Copyright: 2006-2012 Sebastian Trueg <trueg@kde.org>
+           2007,2010 David Faure <faure@kde.org>
+           2009      Adam Kidder <thekidder@gmail.com>
+           2010-2012 Vishesh Handa <handa.vish@gmail.com>
+           2006      Tobias Koenig <tokoe@kde.org>
+           2008      Tobias Wolf <twolf@access.unizh.ch>
+License: LGPL-2+
+
+Files: rcgen/abstractcode.h
+       rcgen/codegenerator.h
+       rcgen/fastcode.cpp
+       rcgen/fastcode.h
+       rcgen/ontologyparser.cpp
+       rcgen/ontologyparser.h
+       rcgen/property.cpp
+       rcgen/property.h
+       rcgen/resourceclass.cpp
+       rcgen/resourceclass.h
+       rcgen/codegenerator.cpp
+       rcgen/rcgen.cpp
+       rcgen/safecode.cpp
+       rcgen/safecode.h
+       services/fileindexer/indexer/nepomukindexwriter.cpp
+       services/fileindexer/indexer/nepomukindexwriter.h
+       services/fileindexer/util.cpp
+       services/fileindexer/util.h
+       services/storage/modelcopyjob.cpp
+       services/storage/modelcopyjob.h
+       services/storage/repository.cpp
+       services/storage/repository.h
+       services/storage/resourcewatcherconnection.cpp
+       services/storage/resourcewatcherconnection.h
+       services/storage/resourcewatchermanager.cpp
+       services/storage/resourcewatchermanager.h
+Copyright: 2006-2012 Sebastian Trueg <trueg@kde.org>
+           2010,2011 Vishesh Handa <handa.vish@gmail.com>
+License: GPL-2+
+
+Files: services/backupsync/gui/test/filesystemtreetest.cpp
+       services/backupsync/gui/test/filesystemtreetest.h
+       services/filewatch/test/kinotifytest.cpp
+       services/filewatch/test/kinotifytest.h
+       services/filewatch/invalidfileresourcecleaner.cpp
+       services/filewatch/invalidfileresourcecleaner.h
+       services/queryservice/countqueryrunnable.cpp
+       services/queryservice/countqueryrunnable.h
+Copyright: 2010 Vishesh Handa <handa.vish@gmail.com>
+           2010 Sebastian Trueg <trueg at kde.org>
+License: GPL-2 or GPL-3
+
+Files: debian/*
+Copyright: 2012 Philip Muškovac <yofel@kubuntu.org>
+License: GPL-2+
+
+Files: cmake/modules/*
+Copyright: 2008-2009 Sebastian Trueg <trueg@kde.org>
+           2009      Alexander Neundorf <neundorf@kde.org>
+           2008      Jos van den Oever <jos@vandenoever.info>
+License: BSD-3-clause
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: LGPL-2.1 or LGPL-3
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 2.1 can be found in the file
+ `/usr/share/common-licenses/LGPL-2.1'.
+ .
+ The full text of the GNU Lesser General Public
+ License version 3 can be found in the file
+ `/usr/share/common-licenses/LGPL-3'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 2.1 can be found in the file
+ `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the full text of the GNU Library General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the full text of the GNU Library General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/LGPL-2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2 or GPL-3
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
+ .
+ The full text of the GNU General Public License
+ version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
