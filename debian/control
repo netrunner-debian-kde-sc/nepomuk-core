@@ -52,18 +52,6 @@ Description: Nepomuk Semantik Desktop core libraries -- shared data files
  .
  This package contains the architecure independent files from nepomuk-core.
 
-Package: libnepomuksync4
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- nepomuk-core-data (>= ${source:Version})
-Breaks: kde-runtime (<< 4:4.8.80)
-Replaces: kde-runtime (<< 4:4.8.80)
-Description: Nepomuk sync interface for the Backup and Sync service
- The Nepomuk sync interface provides a convenient way to store and look up
- Nepomuk resources.
- .
- This package contains the Nepomuk Synchronization library.
-
 Package: libnepomukcore4
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
