@@ -10,7 +10,10 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.0),
  pkg-kde-tools (>= 0.14),
  libsoprano-dev (>= 2.7.56),
  shared-desktop-ontologies (>= 0.6.50),
- libstreamanalyzer-dev (>= 0.7.3)
+ libpoppler-qt4-dev,
+ libtag1-dev,
+ libexiv2-dev,
+ libavformat-dev
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/nepomuk-core.git
