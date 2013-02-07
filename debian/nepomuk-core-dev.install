@@ -17,6 +17,7 @@ usr/include/Nepomuk2/Query/QueryServiceClient
 usr/include/Nepomuk2/Query/ResourceTerm
 usr/include/Nepomuk2/Query/ResourceTypeTerm
 usr/include/Nepomuk2/Query/Result
+usr/include/Nepomuk2/Query/ResultIterator
 usr/include/Nepomuk2/Query/SimpleTerm
 usr/include/Nepomuk2/Query/StandardQuery
 usr/include/Nepomuk2/Query/Term
@@ -85,6 +86,7 @@ usr/include/nepomuk2/resourceterm.h
 usr/include/nepomuk2/resourcetypeterm.h
 usr/include/nepomuk2/resourcewatcher.h
 usr/include/nepomuk2/result.h
+usr/include/nepomuk2/resultiterator.h
 usr/include/nepomuk2/simpleresource.h
 usr/include/nepomuk2/simpleresourcegraph.h
 usr/include/nepomuk2/simpleterm.h
@@ -95,14 +97,15 @@ usr/include/nepomuk2/term.h
 usr/include/nepomuk2/tmo.h
 usr/include/nepomuk2/utils.h
 usr/include/nepomuk2/variant.h
+usr/include/nepomuk2/vocabulary.h
+usr/lib/cmake/NepomukCore/Nepomuk2AddOntologyClasses.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreConfig.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreConfigVersion.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix-debian.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix.cmake
 usr/lib/libnepomukcore.so
-usr/lib/libnepomuksync.so
 usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupSync.xml
+usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupManager.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.DataManagement.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.FileIndexer.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml
@@ -113,5 +116,3 @@ usr/share/dbus-1/interfaces/org.kde.nepomuk.ResourceWatcherConnection.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceControl.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.ServiceManager.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.Storage.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.services.nepomukbackupsync.backupmanager.xml
-usr/share/dbus-1/interfaces/org.kde.nepomuk.services.nepomukbackupsync.syncmanager.xml
