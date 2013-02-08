@@ -9,6 +9,9 @@ override_dh_auto_configure:
 .PHONY: override_dh_auto_test
 
 
+override_dh_makeshlibs:
+	$(overridden_command) -- -c0
+
 override_dh_shlibdeps:
 	$(overridden_command) -- -xkde-runtime
 
