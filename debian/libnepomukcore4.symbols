@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.9.3 amd64
+# SymbolsHelper-Confirmed: 4:4.10.0 amd64
 libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NCO10IsdnNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NCO10contactUIDEv@Base 4:4.9.3
@@ -1102,6 +1102,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk215ResourceManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager11qt_metacastEPKc@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager14removeResourceERK7QString@Base 4:4.9.3
+ _ZN8Nepomuk215ResourceManager16cleanupResourcesEv@Base 4:4.10.0
  _ZN8Nepomuk215ResourceManager16resourceModifiedERK7QString@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager16staticMetaObjectE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager17generateUniqueUriERK7QString@Base 4:4.9.3
@@ -1137,10 +1138,10 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk215ResourceWatcher15resourceRemovedERK4QUrlRK5QListIS1_E@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher16staticMetaObjectE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher17resourceTypeAddedERKNS_8ResourceERKNS_5Types5ClassE@Base 4:4.9.3
- _ZN8Nepomuk215ResourceWatcher17slotPropertyAddedERK7QStringS3_RK5QListI8QVariantE@Base 4:4.9.3
+#MISSING: 4:4.10.0# _ZN8Nepomuk215ResourceWatcher17slotPropertyAddedERK7QStringS3_RK5QListI8QVariantE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19resourceTypeRemovedERKNS_8ResourceERKNS_5Types5ClassE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19slotPropertyChangedERK7QStringS3_RK5QListI8QVariantES8_@Base 4:4.9.3
- _ZN8Nepomuk215ResourceWatcher19slotPropertyRemovedERK7QStringS3_RK5QListI8QVariantE@Base 4:4.9.3
+#MISSING: 4:4.10.0# _ZN8Nepomuk215ResourceWatcher19slotPropertyRemovedERK7QStringS3_RK5QListI8QVariantE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19slotResourceCreatedERK7QStringRK11QStringList@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19slotResourceRemovedERK7QStringRK11QStringList@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher22slotResourceTypesAddedERK7QStringRK11QStringList@Base 4:4.9.3
@@ -1305,6 +1306,13 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk25Query14ComparisonTermD1Ev@Base 4:4.9.3
  _ZN8Nepomuk25Query14ComparisonTermD2Ev@Base 4:4.9.3
  _ZN8Nepomuk25Query14ComparisonTermaSERKS1_@Base 4:4.9.3
+ _ZN8Nepomuk25Query14ResultIterator4nextEv@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorC1ERK7QStringRK5QHashIS2_NS_5Types8PropertyEE@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorC1ERKNS0_5QueryE@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorC2ERK7QStringRK5QHashIS2_NS_5Types8PropertyEE@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorC2ERKNS0_5QueryE@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorD1Ev@Base 4:4.10.0
+ _ZN8Nepomuk25Query14ResultIteratorD2Ev@Base 4:4.10.0
  _ZN8Nepomuk25Query14dateRangeQueryERK5QDateS3_6QFlagsINS0_13DateRangeFlagEE@Base 4:4.9.3
  _ZN8Nepomuk25Query16ResourceTypeTerm7setTypeERKNS_5Types5ClassE@Base 4:4.9.3
  _ZN8Nepomuk25Query16ResourceTypeTermC1ERKNS_5Types5ClassE@Base 4:4.9.3
@@ -1664,6 +1672,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk27VariantaSEj@Base 4:4.9.3
  _ZN8Nepomuk27VariantaSEx@Base 4:4.9.3
  _ZN8Nepomuk27VariantaSEy@Base 4:4.9.3
+ _ZN8Nepomuk28Resource10setSymbolsERK11QStringList@Base 4:4.10.0
  _ZN8Nepomuk28Resource11addPropertyERK4QUrlRKNS_7VariantE@Base 4:4.9.3
  _ZN8Nepomuk28Resource11setPropertyERK4QUrlRKNS_7VariantE@Base 4:4.9.3
  _ZN8Nepomuk28Resource12addIsRelatedERKS0_@Base 4:4.9.3
@@ -1681,6 +1690,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk28Resource7setTagsERK5QListINS_3TagEE@Base 4:4.9.3
  _ZN8Nepomuk28Resource8setLabelERK7QString@Base 4:4.9.3
  _ZN8Nepomuk28Resource8setTypesERK5QListI4QUrlE@Base 4:4.9.3
+ _ZN8Nepomuk28Resource9addSymbolERK7QString@Base 4:4.10.0
  _ZN8Nepomuk28Resource9setRatingERKj@Base 4:4.9.3
  _ZN8Nepomuk28ResourceC1EPNS_12ResourceDataE@Base 4:4.9.3
  _ZN8Nepomuk28ResourceC1ERK4QUrlS3_@Base 4:4.9.3
@@ -1757,6 +1767,10 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZNK8Nepomuk25Query14ComparisonTerm8invertedEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query14ComparisonTerm8propertyEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query14ComparisonTerm9sortOrderEv@Base 4:4.9.3
+ _ZNK8Nepomuk25Query14ResultIterator6resultEv@Base 4:4.10.0
+ _ZNK8Nepomuk25Query14ResultIterator7currentEv@Base 4:4.10.0
+ _ZNK8Nepomuk25Query14ResultIterator7isValidEv@Base 4:4.10.0
+ _ZNK8Nepomuk25Query14ResultIteratordeEv@Base 4:4.10.0
  _ZNK8Nepomuk25Query16ResourceTypeTerm4typeEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query18QueryServiceClient10metaObjectEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query18QueryServiceClient12errorMessageEv@Base 4:4.9.3
@@ -1937,6 +1951,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZNK8Nepomuk28Resource6toFileEv@Base 4:4.9.3
  _ZNK8Nepomuk28Resource7hasTypeERK4QUrl@Base 4:4.9.3
  _ZNK8Nepomuk28Resource7isValidEv@Base 4:4.9.3
+ _ZNK8Nepomuk28Resource7symbolsEv@Base 4:4.10.0
  _ZNK8Nepomuk28Resource8propertyERK4QUrl@Base 4:4.9.3
  _ZNK8Nepomuk28ResourceeqERKS0_@Base 4:4.9.3
  _ZNK8Nepomuk28ResourceneERKS0_@Base 4:4.9.3
