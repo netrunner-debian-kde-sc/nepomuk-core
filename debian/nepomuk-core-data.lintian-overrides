@@ -1,1 +1,2 @@
 nepomuk-core-data: desktop-command-not-in-package usr/share/applications/kde4/nepomukbackup.desktop nepomukbackup
+nepomuk-core-data: desktop-command-not-in-package usr/share/applications/kde4/nepomukcleaner.desktop nepomukcleaner
