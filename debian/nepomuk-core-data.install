@@ -7,9 +7,9 @@ usr/share/kde4/apps/nepomukstorage/nepomukstorage.notifyrc
 usr/share/kde4/services/nepomukactivitiesservice.desktop
 usr/share/kde4/services/nepomukbackupsync.desktop
 usr/share/kde4/services/nepomukexiv2extractor.desktop
+usr/share/kde4/services/nepomukffmpegextractor.desktop
 usr/share/kde4/services/nepomukfileindexer.desktop
 usr/share/kde4/services/nepomukfilewatch.desktop
-usr/share/kde4/services/nepomukffmpegextractor.desktop
 usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukplaintextextractor.desktop
 usr/share/kde4/services/nepomukpopplerextractor.desktop

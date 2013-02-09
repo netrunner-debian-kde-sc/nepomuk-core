@@ -5,9 +5,9 @@ usr/bin/nepomukindexer
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
 usr/lib/kde4/nepomukexiv2extractor.so
+usr/lib/kde4/nepomukffmpegextractor.so
 usr/lib/kde4/nepomukfileindexer.so
 usr/lib/kde4/nepomukfilewatch.so
-usr/lib/kde4/nepomukffmpegextractor.so
 usr/lib/kde4/nepomukplaintextextractor.so
 usr/lib/kde4/nepomukpopplerextractor.so
 usr/lib/kde4/nepomukstorage.so
