@@ -1,5 +1,7 @@
 nepomuk-core (4:4.10.1-0r0) UNRELEASED; urgency=low
 
+  [ Josep Febrer ]
+  [ José Manuel Santamaría Lema ]
   * Initial release. Some bits are sligthly based on Ubuntu; the copyright file
     was copied from there.
 
