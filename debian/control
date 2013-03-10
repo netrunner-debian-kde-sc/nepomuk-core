@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.0),
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
  kdelibs5-dev (>= 4:4.10),
  debhelper (>= 9),
  cmake (>= 2.6.4),
