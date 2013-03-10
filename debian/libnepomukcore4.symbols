@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.0 amd64
+# SymbolsHelper-Confirmed: 4:4.10.1 amd64
 libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NCO10IsdnNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NCO10contactUIDEv@Base 4:4.9.3
@@ -1674,6 +1674,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk28Resource11addPropertyERK4QUrlRKNS_7VariantE@Base 4:4.9.3
  _ZN8Nepomuk28Resource11setPropertyERK4QUrlRKNS_7VariantE@Base 4:4.9.3
  _ZN8Nepomuk28Resource12addIsRelatedERKS0_@Base 4:4.9.3
+ _ZN8Nepomuk28Resource12watchEnabledEv@Base 4:4.10.1
  _ZN8Nepomuk28Resource13addIdentifierERK7QString@Base 4:4.9.3
  _ZN8Nepomuk28Resource13setIsRelatedsERK5QListIS0_E@Base 4:4.9.3
  _ZN8Nepomuk28Resource14removePropertyERK4QUrl@Base 4:4.9.3
@@ -1681,6 +1682,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk28Resource14setDescriptionERK7QString@Base 4:4.9.3
  _ZN8Nepomuk28Resource14setIdentifiersERK11QStringList@Base 4:4.9.3
  _ZN8Nepomuk28Resource15fromResourceUriERK4KUrlRKNS_5Types5ClassE@Base 4:4.9.3
+ _ZN8Nepomuk28Resource15setWatchEnabledEb@Base 4:4.10.1
  _ZN8Nepomuk28Resource18increaseUsageCountEv@Base 4:4.9.3
  _ZN8Nepomuk28Resource6addTagERKNS_3TagE@Base 4:4.9.3
  _ZN8Nepomuk28Resource6removeEv@Base 4:4.9.3
