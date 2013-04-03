@@ -1,6 +1,7 @@
 nepomuk-core (4:4.10.2-2) UNRELEASED; urgency=low
 
   * Update copyright file based on comments from ftp-master
+  * Update uploaders
 
  -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 20:48:15 +0000
 
