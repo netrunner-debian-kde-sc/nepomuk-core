@@ -33,6 +33,8 @@ Description: Nepomuk Semantik Desktop core libraries -- development files
 Package: nepomuk-core-runtime
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kde-runtime (<< 4:4.8.80)
+Replaces: kde-runtime (<< 4:4.8.80)
 Description: Nepomuk Semantik Desktop core libraries
  The core Nepomuk system contains of the central services like file indexing,
  file system monitoring, query, and of course storage, as well as the
