@@ -1,4 +1,4 @@
-nepomuk-core (4:4.10.2-2) UNRELEASED; urgency=low
+nepomuk-core (4:4.10.2-2) experimental; urgency=low
 
   [ Sune Vuorela ]
   * Update copyright file based on comments from ftp-master
@@ -8,7 +8,7 @@ nepomuk-core (4:4.10.2-2) UNRELEASED; urgency=low
   * Make nepomuk-core-runtime break/replace kde-runtime < 4.8.80, since files
     were moved. (Closes: #705529)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Apr 2013 20:48:15 +0000
+ -- Sune Vuorela <sune@debian.org>  Wed, 17 Apr 2013 21:46:44 +0200
 
 nepomuk-core (4:4.10.2-1) experimental; urgency=low
 
