@@ -9,6 +9,10 @@ Copyright: 2010,2011 Vishesh Handa <handa.vish@gmail.com>
            2010      Dario Freddi <drf@kde.org>
            2011      Serebriyskiy Artem <v.for.vandal@gmail.com>
 License: LGPL-2.1 or LGPL-3
+
+Files: ontologies/*
+Copyright: 2009-2012, Sebastian Trueg <trueg@kde.org>
+           2010, Vishesh Handa <handa.vish@gmail.com>
 License: CC-BY or BSD
 
 Files: libnepomukcore/datamanagement/resourcewatcher.cpp
@@ -357,8 +361,7 @@ License: GPL-2 or GPL-3
  version 3 can be found in the file
  `/usr/share/common-licenses/GPL-3'.
 
-License CC-BY or BSD
-
+License: CC-BY or BSD
  You are free:
   * to Share - to copy, distribute and transmit the work
   * to Remix - to adapt the work
@@ -366,7 +369,7 @@ License CC-BY or BSD
   * Attribution - You must attribute the work in the manner specified by the author
     or licensor (but not in any way that suggests that they endorse you or your use
     of the work).
-
+ .
  Redistribution and use in source and binary forms, with or without modification,
  are permitted provided that the following conditions are met:
   * Redistributions of source code must retain the above copyright notice, this
@@ -377,7 +380,7 @@ License CC-BY or BSD
   * Neither the names of the authors nor the names of contributors may
     be used to endorse or promote products derived from this ontology without
     specific prior written permission.
-
+ .
  THIS ONTOLOGY IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.

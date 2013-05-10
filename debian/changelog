@@ -4,6 +4,7 @@ nepomuk-core (4:4.10.3-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Bump Standards-Version to 3.9.4, no further changes needed.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 15:23:17 +0200
 
