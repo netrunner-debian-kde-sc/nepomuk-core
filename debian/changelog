@@ -1,4 +1,4 @@
-nepomuk-core (4:4.10.3-1) UNRELEASED; urgency=low
+nepomuk-core (4:4.10.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -9,7 +9,7 @@ nepomuk-core (4:4.10.3-1) UNRELEASED; urgency=low
   * Install nepomukextractor library as a versioned library.
   * Update symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 17:03:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 May 2013 16:21:23 +0200
 
 nepomuk-core (4:4.10.2-2) experimental; urgency=low
 
