@@ -6,6 +6,7 @@ nepomuk-core (4:4.10.3-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.4, no further changes needed.
   * Update copyright file.
   * Add myself to the Uploaders field.
+  * Install nepomukextractor library as a versioned library.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 17:03:43 +0200
 

@@ -104,6 +104,7 @@ usr/lib/cmake/NepomukCore/NepomukCoreConfigVersion.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix-debian.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix.cmake
 usr/lib/libnepomukcore.so
+usr/lib/libnepomukextractor.so
 usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupManager.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.DataManagement.xml

@@ -1,0 +1,21 @@
+Author: Maximiliano Curia <maxy@debian.org>
+Forwarded: not-needed
+Last-Update: 2013-05-12
+Description: Install nepomukextractor library as a versioned library
+
+diff --git a/services/fileindexer/indexer/CMakeLists.txt b/services/fileindexer/indexer/CMakeLists.txt
+index 92edefb..3a5466c 100644
+--- a/services/fileindexer/indexer/CMakeLists.txt
++++ b/services/fileindexer/indexer/CMakeLists.txt
+@@ -14,6 +14,11 @@ target_link_libraries(nepomukextractor
+   nepomukcore
+ )
+ 
++set_target_properties(nepomukextractor PROPERTIES
++   VERSION ${GENERIC_LIB_VERSION}
++   SOVERSION ${GENERIC_LIB_SOVERSION}
++)
++
+ install(TARGETS nepomukextractor EXPORT NepomukCoreLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ set(indexer_SRCS
