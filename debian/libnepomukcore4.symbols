@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.1 amd64
+# SymbolsHelper-Confirmed: 4:4.10.3 amd64
 libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NCO10IsdnNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NCO10contactUIDEv@Base 4:4.9.3
@@ -2007,3 +2007,21 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZlsR13QDBusArgumentRKN8Nepomuk25Query6ResultE@Base 4:4.9.3
  _ZrsRK13QDBusArgumentRN7Soprano4NodeE@Base 4:4.9.3
  _ZrsRK13QDBusArgumentRN8Nepomuk25Query6ResultE@Base 4:4.9.3
+libnepomukextractor.so.4 libnepomukcore4 #MINVER#
+ _ZN8Nepomuk215ExtractorPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin11qt_metacastEPKc@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin13shouldExtractERK4QUrlRK7QString@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin16staticMetaObjectE@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin18contactsFromStringERK7QString@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin18dateTimeFromStringERK7QString@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin8criteriaEv@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin9mimetypesEv@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPluginC1EP7QObject@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPluginC2EP7QObject@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPluginD0Ev@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPluginD1Ev@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPluginD2Ev@Base 4:4.10.3
+ _ZNK8Nepomuk215ExtractorPlugin10metaObjectEv@Base 4:4.10.3
+ _ZTIN8Nepomuk215ExtractorPluginE@Base 4:4.10.3
+ _ZTSN8Nepomuk215ExtractorPluginE@Base 4:4.10.3
+ _ZTVN8Nepomuk215ExtractorPluginE@Base 4:4.10.3
