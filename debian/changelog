@@ -9,6 +9,9 @@ nepomuk-core (4:4.10.3-1) UNRELEASED; urgency=low
   * Install nepomukextractor library as a versioned library.
   * Update symbols file.
 
+  [ Pino Toscano ]
+  * Fix typo in description of nepomuk-core-data. (Closes: #710892)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 May 2013 16:21:23 +0200
 
 nepomuk-core (4:4.10.2-2) experimental; urgency=low

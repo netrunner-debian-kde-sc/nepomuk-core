@@ -53,7 +53,7 @@ Description: Nepomuk Semantik Desktop core libraries -- shared data files
  file system monitoring, query, and of course storage, as well as the
  corresponding client libraries.
  .
- This package contains the architecure independent files from nepomuk-core.
+ This package contains the architecture independent files from nepomuk-core.
 
 Package: libnepomukcore4
 Architecture: any
