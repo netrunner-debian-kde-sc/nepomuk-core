@@ -1,4 +1,4 @@
-nepomuk-core (4:4.10.4-1) UNRELEASED; urgency=low
+nepomuk-core (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -17,7 +17,7 @@ nepomuk-core (4:4.10.4-1) UNRELEASED; urgency=low
   * Add libnepomukcore4 new symbols.
   * Bump shared-desktop-ontologies build-dep version.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Jun 2013 16:54:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 00:04:07 +0200
 
 nepomuk-core (4:4.10.2-2) experimental; urgency=low
 
