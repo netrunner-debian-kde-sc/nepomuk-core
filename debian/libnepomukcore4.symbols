@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.3 amd64
+# SymbolsHelper-Confirmed: 4:4.10.4 amd64
 libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NCO10IsdnNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NCO10contactUIDEv@Base 4:4.9.3
@@ -297,13 +297,16 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NMM10MusicPieceEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM10hasEpisodeEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM10musicAlbumEv@Base 4:4.9.3
+ _ZN8Nepomuk210Vocabulary3NMM11albumArtistEv@Base 4:4.10.4
  _ZN8Nepomuk210Vocabulary3NMM11releaseDateEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM11trackNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM12nmmNamespaceEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM12seasonNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM13albumPeakGainEv@Base 4:4.9.3
+ _ZN8Nepomuk210Vocabulary3NMM13albumProducerEv@Base 4:4.10.4
  _ZN8Nepomuk210Vocabulary3NMM13episodeNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM13trackPeakGainEv@Base 4:4.9.3
+ _ZN8Nepomuk210Vocabulary3NMM14albumConductorEv@Base 4:4.10.4
  _ZN8Nepomuk210Vocabulary3NMM14audienceRatingEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM14beatsPerMinuteEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NMM14isPartOfSeasonEv@Base 4:4.9.3
