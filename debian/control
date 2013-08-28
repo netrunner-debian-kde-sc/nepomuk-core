@@ -41,7 +41,8 @@ Description: Nepomuk Semantik Desktop core libraries
  file system monitoring, query, and of course storage, as well as the
  corresponding client libraries.
  .
- This package contains the runtime files from nepomuk-core.
+ This package contains the runtime files from nepomuk-core. However no indexing
+ will happen unless the virtuoso database is installed.
 
 Package: nepomuk-core-data
 Architecture: all

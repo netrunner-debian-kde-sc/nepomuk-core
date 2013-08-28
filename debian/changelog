@@ -1,5 +1,9 @@
 nepomuk-core (4:4.10.5-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Document that nepomuk-core-runtime will not index stuff unless virtuoso
+    is installed (Closes: #721045).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 22:58:32 -0300
 
 nepomuk-core (4:4.10.5-1) unstable; urgency=low
