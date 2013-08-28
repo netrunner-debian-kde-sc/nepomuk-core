@@ -1,3 +1,7 @@
+nepomuk-core (4:4.10.5-2) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Aug 2013 22:58:32 -0300
+
 nepomuk-core (4:4.10.5-1) unstable; urgency=low
 
   * New upstream release.
