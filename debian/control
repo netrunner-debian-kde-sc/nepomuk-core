@@ -14,7 +14,10 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
  libpoppler-qt4-dev,
  libtag1-dev,
  libexiv2-dev,
- libavformat-dev
+ libavformat-dev,
+ libx11-dev,
+ libepub-dev,
+ doxygen
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/nepomuk-core.git

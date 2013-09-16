@@ -6,6 +6,9 @@ nepomuk-core (4:4.11.1-1) UNRELEASED; urgency=low
   * Document that nepomuk-core-runtime will not index stuff unless virtuoso
     is installed (Closes: #721045).
 
+  [ Maximiliano Curia ]
+  * Add new optional build-deps.
+
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:17:35 +0200
 
 nepomuk-core (4:4.10.5-1) unstable; urgency=low
