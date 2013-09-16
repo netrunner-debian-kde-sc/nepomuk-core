@@ -9,6 +9,7 @@ nepomuk-core (4:4.11.1-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Add new optional build-deps.
   * Update install files.
+  * Update symbols file.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:17:35 +0200
 

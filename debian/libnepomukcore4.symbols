@@ -1,4 +1,21 @@
-# SymbolsHelper-Confirmed: 4:4.10.4 amd64
+# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+libnepomukcleaner.so.4 libnepomukcleaner4 #MINVER#
+ _ZN8Nepomuk211CleaningJob10shouldQuitEv@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob11qt_metacastEPKc@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob16staticMetaObjectE@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob18slotStartExecutionEv@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob4quitEv@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJob5startEv@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJobC1EP7QObject@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJobC2EP7QObject@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJobD0Ev@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJobD1Ev@Base 4:4.11.1
+ _ZN8Nepomuk211CleaningJobD2Ev@Base 4:4.11.1
+ _ZNK8Nepomuk211CleaningJob10metaObjectEv@Base 4:4.11.1
+ _ZTIN8Nepomuk211CleaningJobE@Base 4:4.11.1
+ _ZTSN8Nepomuk211CleaningJobE@Base 4:4.11.1
+ _ZTVN8Nepomuk211CleaningJobE@Base 4:4.11.1
 libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk210Vocabulary3NCO10IsdnNumberEv@Base 4:4.9.3
  _ZN8Nepomuk210Vocabulary3NCO10contactUIDEv@Base 4:4.9.3
@@ -1111,6 +1128,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk215ResourceManager17generateUniqueUriERK7QString@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager17slotPropertyAddedERKNS_8ResourceERKNS_5Types8PropertyERK8QVariant@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager19slotPropertyRemovedERKNS_8ResourceERKNS_5Types8PropertyERK8QVariant@Base 4:4.9.3
+ _ZN8Nepomuk215ResourceManager19slotResourceRemovedERK4QUrlRK5QListIS1_E@Base 4:4.11.1
  _ZN8Nepomuk215ResourceManager20nepomukSystemStartedEv@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager20nepomukSystemStoppedEv@Base 4:4.9.3
  _ZN8Nepomuk215ResourceManager20setOverrideMainModelEPN7Soprano5ModelE@Base 4:4.9.3
@@ -1141,6 +1159,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk215ResourceWatcher15resourceRemovedERK4QUrlRK5QListIS1_E@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher16staticMetaObjectE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher17resourceTypeAddedERKNS_8ResourceERKNS_5Types5ClassE@Base 4:4.9.3
+ _ZN8Nepomuk215ResourceWatcher17slotWatchFinishedEP23QDBusPendingCallWatcher@Base 4:4.11.1
  _ZN8Nepomuk215ResourceWatcher19resourceTypeRemovedERKNS_8ResourceERKNS_5Types5ClassE@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19slotPropertyChangedERK7QStringS3_RK5QListI8QVariantES8_@Base 4:4.9.3
  _ZN8Nepomuk215ResourceWatcher19slotResourceCreatedERK7QStringRK11QStringList@Base 4:4.9.3
@@ -1710,6 +1729,23 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk28ResourceD2Ev@Base 4:4.9.3
  _ZN8Nepomuk28ResourceaSERK4QUrl@Base 4:4.9.3
  _ZN8Nepomuk28ResourceaSERKS0_@Base 4:4.9.3
+ _ZN8Nepomuk28Service210initCommonERK7QString@Base 4:4.11.1
+ _ZN8Nepomuk28Service211descriptionEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service211qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
+ _ZN8Nepomuk28Service211qt_metacastEPKc@Base 4:4.11.1
+ _ZN8Nepomuk28Service215dbusServiceNameERK7QString@Base 4:4.11.1
+ _ZN8Nepomuk28Service215dbusServiceNameEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service216staticMetaObjectE@Base 4:4.11.1
+ _ZN8Nepomuk28Service221setServiceInitializedEb@Base 4:4.11.1
+ _ZN8Nepomuk28Service24nameEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service27Private11loadDetailsEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service27Private17configurePriorityEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service27Private20createDBusInterfacesEv@Base 4:4.11.1
+ _ZN8Nepomuk28Service2C1EP7QObjectb@Base 4:4.11.1
+ _ZN8Nepomuk28Service2C2EP7QObjectb@Base 4:4.11.1
+ _ZN8Nepomuk28Service2D0Ev@Base 4:4.11.1
+ _ZN8Nepomuk28Service2D1Ev@Base 4:4.11.1
+ _ZN8Nepomuk28Service2D2Ev@Base 4:4.11.1
  _ZN8Nepomuk2lsE6QDebugRKNS_14SimpleResourceE@Base 4:4.9.3
  _ZN8Nepomuk2lsE6QDebugRKNS_19SimpleResourceGraphE@Base 4:4.9.3
  _ZN8Nepomuk2lsER11QDataStreamRKNS_14SimpleResourceE@Base 4:4.9.3
@@ -1958,6 +1994,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZNK8Nepomuk28Resource8propertyERK4QUrl@Base 4:4.9.3
  _ZNK8Nepomuk28ResourceeqERKS0_@Base 4:4.9.3
  _ZNK8Nepomuk28ResourceneERKS0_@Base 4:4.9.3
+ _ZNK8Nepomuk28Service210metaObjectEv@Base 4:4.11.1
  _ZTIN8Nepomuk214SimpleResourceE@Base 4:4.9.3
  _ZTIN8Nepomuk215ResourceManagerE@Base 4:4.9.3
  _ZTIN8Nepomuk215ResourceWatcherE@Base 4:4.9.3
@@ -1973,6 +2010,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZTIN8Nepomuk25Types8PropertyE@Base 4:4.9.3
  _ZTIN8Nepomuk27ServiceE@Base 4:4.9.3
  _ZTIN8Nepomuk28ResourceE@Base 4:4.9.3
+ _ZTIN8Nepomuk28Service2E@Base 4:4.11.1
  _ZTSN8Nepomuk214SimpleResourceE@Base 4:4.9.3
  _ZTSN8Nepomuk215ResourceManagerE@Base 4:4.9.3
  _ZTSN8Nepomuk215ResourceWatcherE@Base 4:4.9.3
@@ -1988,6 +2026,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZTSN8Nepomuk25Types8PropertyE@Base 4:4.9.3
  _ZTSN8Nepomuk27ServiceE@Base 4:4.9.3
  _ZTSN8Nepomuk28ResourceE@Base 4:4.9.3
+ _ZTSN8Nepomuk28Service2E@Base 4:4.11.1
  _ZTVN8Nepomuk214SimpleResourceE@Base 4:4.9.3
  _ZTVN8Nepomuk215ResourceManagerE@Base 4:4.9.3
  _ZTVN8Nepomuk215ResourceWatcherE@Base 4:4.9.3
@@ -2003,6 +2042,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZTVN8Nepomuk25Types8PropertyE@Base 4:4.9.3
  _ZTVN8Nepomuk27ServiceE@Base 4:4.9.3
  _ZTVN8Nepomuk28ResourceE@Base 4:4.9.3
+ _ZTVN8Nepomuk28Service2E@Base 4:4.11.1
  _Zls6QDebugRKN8Nepomuk25Query4TermE@Base 4:4.9.3
  _Zls6QDebugRKN8Nepomuk25Query5QueryE@Base 4:4.9.3
  _Zls6QDebugRKN8Nepomuk27VariantE@Base 4:4.9.3
@@ -2014,9 +2054,13 @@ libnepomukextractor.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk215ExtractorPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPlugin11qt_metacastEPKc@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPlugin13shouldExtractERK4QUrlRK7QString@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin15s_plainTextSizeE@Base 4:4.11.1
+ _ZN8Nepomuk215ExtractorPlugin16maxPlainTextSizeEv@Base 4:4.11.1
  _ZN8Nepomuk215ExtractorPlugin16staticMetaObjectE@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPlugin18contactsFromStringERK7QString@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPlugin18dateTimeFromStringERK7QString@Base 4:4.10.3
+ _ZN8Nepomuk215ExtractorPlugin19setMaxPlainTextSizeEi@Base 4:4.11.1
+ _ZN8Nepomuk215ExtractorPlugin21resetMaxPlainTextSizeEv@Base 4:4.11.1
  _ZN8Nepomuk215ExtractorPlugin8criteriaEv@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPlugin9mimetypesEv@Base 4:4.10.3
  _ZN8Nepomuk215ExtractorPluginC1EP7QObject@Base 4:4.10.3
