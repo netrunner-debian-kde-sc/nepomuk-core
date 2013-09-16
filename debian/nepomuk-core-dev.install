@@ -47,6 +47,7 @@ usr/include/Nepomuk2/Vocabulary/PIMO
 usr/include/Nepomuk2/Vocabulary/TMO
 usr/include/nepomuk2/andterm.h
 usr/include/nepomuk2/class.h
+usr/include/nepomuk2/cleaningjob.h
 usr/include/nepomuk2/comparisonterm.h
 usr/include/nepomuk2/createresourcejob.h
 usr/include/nepomuk2/datamanagement.h
@@ -87,6 +88,7 @@ usr/include/nepomuk2/resourcetypeterm.h
 usr/include/nepomuk2/resourcewatcher.h
 usr/include/nepomuk2/result.h
 usr/include/nepomuk2/resultiterator.h
+usr/include/nepomuk2/service2.h
 usr/include/nepomuk2/simpleresource.h
 usr/include/nepomuk2/simpleresourcegraph.h
 usr/include/nepomuk2/simpleterm.h
@@ -103,12 +105,14 @@ usr/lib/cmake/NepomukCore/NepomukCoreConfig.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreConfigVersion.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix-debian.cmake
 usr/lib/cmake/NepomukCore/NepomukCoreTargetsWithPrefix.cmake
+usr/lib/libnepomukcleaner.so
 usr/lib/libnepomukcore.so
 usr/lib/libnepomukextractor.so
 usr/share/dbus-1/interfaces/org.kde.NepomukServer.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.BackupManager.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.DataManagement.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.FileIndexer.xml
+usr/share/dbus-1/interfaces/org.kde.nepomuk.FileWatch.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.OntologyManager.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.Query.xml
 usr/share/dbus-1/interfaces/org.kde.nepomuk.QueryService.xml

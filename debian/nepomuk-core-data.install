@@ -6,10 +6,14 @@ usr/share/kde4/apps/nepomukfilewatch/nepomukfilewatch.notifyrc
 usr/share/kde4/apps/nepomukstorage/nepomukstorage.notifyrc
 usr/share/kde4/services/nepomukactivitiesservice.desktop
 usr/share/kde4/services/nepomukbackupsync.desktop
+usr/share/kde4/services/nepomukepubextractor.desktop
 usr/share/kde4/services/nepomukexiv2extractor.desktop
 usr/share/kde4/services/nepomukffmpegextractor.desktop
 usr/share/kde4/services/nepomukfileindexer.desktop
 usr/share/kde4/services/nepomukfilewatch.desktop
+usr/share/kde4/services/nepomukmobiextractor.desktop
+usr/share/kde4/services/nepomukodfextractor.desktop
+usr/share/kde4/services/nepomukoffice2007extractor.desktop
 usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukplaintextextractor.desktop
 usr/share/kde4/services/nepomukpopplerextractor.desktop
@@ -18,8 +22,10 @@ usr/share/kde4/services/nepomukremovablestorageservice.desktop
 usr/share/kde4/services/nepomukstorage.desktop
 usr/share/kde4/services/nepomukstrigiservice.desktop
 usr/share/kde4/services/nepomuktaglibextractor.desktop
+usr/share/kde4/servicetypes/nepomukcleaningjob.desktop
 usr/share/kde4/servicetypes/nepomukextractor.desktop
 usr/share/kde4/servicetypes/nepomukservice.desktop
+usr/share/kde4/servicetypes/nepomukservice2.desktop
 usr/share/ontology/kde/kext.ontology
 usr/share/ontology/kde/kext.trig
 usr/share/ontology/kde/kuvo.ontology
