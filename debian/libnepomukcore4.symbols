@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.11.1 amd64
-libnepomukcleaner.so.4 libnepomukcleaner4 #MINVER#
+libnepomukcleaner.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk211CleaningJob10shouldQuitEv@Base 4:4.11.1
  _ZN8Nepomuk211CleaningJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN8Nepomuk211CleaningJob11qt_metacastEPKc@Base 4:4.11.1
