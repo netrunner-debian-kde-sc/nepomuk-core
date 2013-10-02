@@ -10,6 +10,7 @@ nepomuk-core (4:4.11.2-1) experimental; urgency=low
   * Add new optional build-deps.
   * Update install files.
   * Update symbols file.
+  * Bump soprano build-dependency version.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Oct 2013 20:30:50 +0200
 
