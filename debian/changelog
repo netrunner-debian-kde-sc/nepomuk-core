@@ -1,3 +1,9 @@
+nepomuk-core (4:4.11.2-3) UNRELEASED; urgency=low
+
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Oct 2013 17:36:37 +0200
+
 nepomuk-core (4:4.11.2-2) experimental; urgency=low
 
   * Bump kdelibs5-dev build-dependency.

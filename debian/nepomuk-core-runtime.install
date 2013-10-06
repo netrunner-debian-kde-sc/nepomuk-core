@@ -1,4 +1,3 @@
-etc/dbus-1/system.d/org.kde.nepomuk.filewatch.conf
 usr/bin/nepomuk2-rcgen
 usr/bin/nepomukbackup
 usr/bin/nepomukcleaner
@@ -25,5 +24,3 @@ usr/lib/kde4/nepomukpopplerextractor.so
 usr/lib/kde4/nepomuktaglibextractor.so
 usr/lib/libkdeinit4_nepomukserver.so
 usr/lib/libnepomukcommon.so
-usr/share/dbus-1/system-services/org.kde.nepomuk.filewatch.service
-usr/share/polkit-1/actions/org.kde.nepomuk.filewatch.policy

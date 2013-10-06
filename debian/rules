@@ -2,6 +2,7 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
+DEB_HOST_ARCH_OS := $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 
 override_dh_auto_configure:
 	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
@@ -17,6 +18,14 @@ override_dh_shlibdeps:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=nepomuk-core-dbg
+
+pkgs_with_install_linux = $(patsubst debian/%.install.linux,%,$(wildcard debian/*.install.linux))
+override_dh_install:
+	$(overridden_command)
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+	# Also install common files in place of debian/*.install.linux variants
+	dh_install $(foreach p,$(pkgs_with_install_linux),-p$p --ignore=debian/$p.install.linux)
+endif
 
 # Library stuff
 libpkgs_addsubst_allLibraries = nepomuk-core-dev nepomuk-core-dbg
