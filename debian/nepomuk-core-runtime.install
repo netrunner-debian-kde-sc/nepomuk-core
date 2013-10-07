@@ -12,7 +12,6 @@ usr/bin/nepomukserver
 usr/bin/nepomukservicestub
 usr/bin/nepomukstorage
 usr/bin/nepomukshow
-usr/lib/kde4/libexec/kde_nepomuk_filewatch_raiselimit
 usr/lib/kde4/nepomukepubextractor.so
 usr/lib/kde4/nepomukexiv2extractor.so
 usr/lib/kde4/nepomukffmpegextractor.so
