@@ -1,3 +1,9 @@
+nepomuk-core (4:4.11.4-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:04:28 +0100
+
 nepomuk-core (4:4.11.3-2) unstable; urgency=low
 
   * Team upload.
