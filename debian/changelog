@@ -1,5 +1,7 @@
 nepomuk-core (4:4.11.3-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Add the pkg-config build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:26:23 +0100
 

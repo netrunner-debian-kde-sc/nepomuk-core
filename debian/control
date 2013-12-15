@@ -17,6 +17,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libavformat-dev,
  libx11-dev,
  libepub-dev,
+ pkg-config,
  doxygen
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
