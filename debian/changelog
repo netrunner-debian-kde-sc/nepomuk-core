@@ -1,9 +1,9 @@
-nepomuk-core (4:4.11.3-2) UNRELEASED; urgency=low
+nepomuk-core (4:4.11.3-2) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * Add the pkg-config build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 22:26:23 +0100
+ -- Pino Toscano <pino@debian.org>  Wed, 25 Dec 2013 20:21:48 +0100
 
 nepomuk-core (4:4.11.3-1) unstable; urgency=low
 
