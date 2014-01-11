@@ -1,6 +1,7 @@
 nepomuk-core (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 11 Jan 2014 11:51:08 -0300
 
