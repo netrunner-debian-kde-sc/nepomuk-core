@@ -80,7 +80,6 @@ usr/include/nepomuk2/query.h
 usr/include/nepomuk2/queryinterface.h
 usr/include/nepomuk2/queryparser.h
 usr/include/nepomuk2/queryserviceclient.h
-usr/include/nepomuk2/queryserviceinterface.h
 usr/include/nepomuk2/resource.h
 usr/include/nepomuk2/resourcemanager.h
 usr/include/nepomuk2/resourceterm.h
