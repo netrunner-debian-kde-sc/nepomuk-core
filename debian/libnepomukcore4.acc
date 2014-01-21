@@ -2,7 +2,7 @@
 <descriptor>
 
 <version>
-    4.11.3
+    4.11.5
 </version>
 
 <headers>
@@ -76,6 +76,8 @@
     /usr/include/nepomuk2/nepomukservice.h
     /usr/include/nepomuk2/resourcemanager.h
     /usr/include/nepomuk2/standardqueries.h
+    /usr/include/nepomuk2/queryserviceinterface.h
+    /usr/include/nepomuk2/dbusoperators_p.h
     /usr/include/nepomuk2/andterm.h
     /usr/include/nepomuk2/ontology.h
     /usr/include/nepomuk2/resourceterm.h
