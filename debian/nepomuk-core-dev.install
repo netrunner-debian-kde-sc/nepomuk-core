@@ -51,6 +51,7 @@ usr/include/nepomuk2/cleaningjob.h
 usr/include/nepomuk2/comparisonterm.h
 usr/include/nepomuk2/createresourcejob.h
 usr/include/nepomuk2/datamanagement.h
+usr/include/nepomuk2/dbusoperators_p.h
 usr/include/nepomuk2/describeresourcesjob.h
 usr/include/nepomuk2/entity.h
 usr/include/nepomuk2/file.h
@@ -80,6 +81,7 @@ usr/include/nepomuk2/query.h
 usr/include/nepomuk2/queryinterface.h
 usr/include/nepomuk2/queryparser.h
 usr/include/nepomuk2/queryserviceclient.h
+usr/include/nepomuk2/queryserviceinterface.h
 usr/include/nepomuk2/resource.h
 usr/include/nepomuk2/resourcemanager.h
 usr/include/nepomuk2/resourceterm.h
