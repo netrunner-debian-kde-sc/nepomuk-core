@@ -1,0 +1,12 @@
+Index: nepomuk-core/libnepomukcore/CMakeLists.txt
+===================================================================
+--- nepomuk-core.orig/libnepomukcore/CMakeLists.txt	2014-01-21 15:18:17.660836547 -0300
++++ nepomuk-core/libnepomukcore/CMakeLists.txt	2014-01-21 15:18:57.697705949 -0300
+@@ -182,6 +182,7 @@
+   query/queryserviceclient.h
+   query/queryparser.h
+   query/standardqueries.h
++  query/dbusoperators_p.h
+   datamanagement/simpleresource.h
+   datamanagement/simpleresourcegraph.h
+   datamanagement/datamanagement.h
