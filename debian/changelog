@@ -1,3 +1,9 @@
+nepomuk-core (4:4.12.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:08:22 +0100
+
 nepomuk-core (4:4.11.5-2) unstable; urgency=medium
 
   * Add private headers, needed by kde-runtime.
