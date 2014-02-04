@@ -10,8 +10,8 @@ usr/bin/nepomukmigrator
 usr/bin/nepomuksearch
 usr/bin/nepomukserver
 usr/bin/nepomukservicestub
-usr/bin/nepomukstorage
 usr/bin/nepomukshow
+usr/bin/nepomukstorage
 usr/lib/kde4/nepomukepubextractor.so
 usr/lib/kde4/nepomukexiv2extractor.so
 usr/lib/kde4/nepomukffmpegextractor.so

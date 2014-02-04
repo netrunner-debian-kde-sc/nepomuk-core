@@ -2,23 +2,22 @@ Source: nepomuk-core
 Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- kdelibs5-dev (>= 4:4.11),
- debhelper (>= 9),
- cmake (>= 2.8.6),
- pkg-kde-tools (>= 0.14),
- libsoprano-dev (>= 2.9.3),
- shared-desktop-ontologies (>= 0.11.0),
- libpoppler-qt4-dev (>= 0.12.1),
- libtag1-dev,
- libexiv2-dev (>= 0.21),
- libavformat-dev,
- libx11-dev,
- libepub-dev,
- pkg-config,
- doxygen
+Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.6),
+               debhelper (>= 9),
+               doxygen,
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libavformat-dev,
+               libepub-dev,
+               libexiv2-dev (>= 0.21),
+               libpoppler-qt4-dev (>= 0.12.1),
+               libsoprano-dev (>= 2.9.3),
+               libtag1-dev,
+               libx11-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.14),
+               shared-desktop-ontologies (>= 0.11.0)
 Standards-Version: 3.9.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
@@ -28,7 +27,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/nepomuk-core.git
 Package: nepomuk-core-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, ${allLibraries}, python
+Depends: python, ${allLibraries}, ${misc:Depends}
 Description: Nepomuk Semantik Desktop core libraries -- development files
  The core Nepomuk system contains of the central services like file indexing,
  file system monitoring, query, and of course storage, as well as the
@@ -38,7 +37,7 @@ Description: Nepomuk Semantik Desktop core libraries -- development files
 
 Package: nepomuk-core-runtime
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kde-runtime (<< 4:4.8.80)
 Replaces: kde-runtime (<< 4:4.8.80)
 Description: Nepomuk Semantik Desktop core libraries
@@ -63,8 +62,9 @@ Description: Nepomuk Semantik Desktop core libraries -- shared data files
 
 Package: libnepomukcore4
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
- nepomuk-core-data (>= ${source:Version})
+Depends: nepomuk-core-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Nepomuk Meta Data Library
  This is the KDE Meta Data library (not to confuse with KFileMetaData). It
  consists of the following parts:
@@ -77,8 +77,9 @@ Package: nepomuk-core-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ${misc:Depends}, ${allLibraries},
- nepomuk-core-runtime (= ${binary:Version})
+Depends: nepomuk-core-runtime (= ${binary:Version}),
+         ${allLibraries},
+         ${misc:Depends}
 Breaks: kde-runtime-dbg (<< 4:4.8.80)
 Replaces: kde-runtime-dbg (<< 4:4.8.80)
 Description: debugging symbols for the Nepomuk Semantik Desktop core libraries
@@ -88,4 +89,3 @@ Description: debugging symbols for the Nepomuk Semantik Desktop core libraries
  .
  This package contains debugging files used to investigate problems with the
  core Nepomuk system mentioned above.
-
