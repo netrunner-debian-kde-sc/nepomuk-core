@@ -11,9 +11,9 @@ usr/share/kde4/services/nepomukexiv2extractor.desktop
 usr/share/kde4/services/nepomukffmpegextractor.desktop
 usr/share/kde4/services/nepomukfileindexer.desktop
 usr/share/kde4/services/nepomukfilewatch.desktop
-usr/share/kde4/services/nepomukmobiextractor.desktop
 usr/share/kde4/services/nepomukodfextractor.desktop
 usr/share/kde4/services/nepomukoffice2007extractor.desktop
+usr/share/kde4/services/nepomukofficeextractor.desktop
 usr/share/kde4/services/nepomukontologyloader.desktop
 usr/share/kde4/services/nepomukplaintextextractor.desktop
 usr/share/kde4/services/nepomukpopplerextractor.desktop
