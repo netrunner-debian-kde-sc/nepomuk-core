@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.12.2 amd64
 libnepomukcleaner.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk211CleaningJob10shouldQuitEv@Base 4:4.11.1
  _ZN8Nepomuk211CleaningJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
@@ -1375,6 +1375,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZN8Nepomuk25Query18QueryServiceClientD2Ev@Base 4:4.9.3
  _ZN8Nepomuk25Query4Term10fromStringERK7QString@Base 4:4.9.3
  _ZN8Nepomuk25Query4Term11fromVariantERKNS_7VariantE@Base 4:4.9.3
+ _ZN8Nepomuk25Query4Term11setUserDataERK7QStringRK8QVariant@Base 4:4.12.2
  _ZN8Nepomuk25Query4Term12fromPropertyERKNS_5Types8PropertyERKNS_7VariantE@Base 4:4.9.3
  _ZN8Nepomuk25Query4Term13toLiteralTermEv@Base 4:4.9.3
  _ZN8Nepomuk25Query4Term14toNegationTermEv@Base 4:4.9.3
@@ -1831,6 +1832,7 @@ libnepomukcore.so.4 libnepomukcore4 #MINVER#
  _ZNK8Nepomuk25Query4Term8isOrTermEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query4Term8toOrTermEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query4Term8toStringEv@Base 4:4.9.3
+ _ZNK8Nepomuk25Query4Term8userDataERK7QString@Base 4:4.12.2
  _ZNK8Nepomuk25Query4Term9isAndTermEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query4Term9optimizedEv@Base 4:4.9.3
  _ZNK8Nepomuk25Query4Term9toAndTermEv@Base 4:4.9.3
