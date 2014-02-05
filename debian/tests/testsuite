@@ -7,5 +7,5 @@ fi
 debian/rules clean 2>&1
 dpkg-source --before-build .
 debian/rules build 2>&1
-xvfb-run -a --server-args="-screen 0 1024x768x24" \
+xvfb-run -a -n 1 --server-args="-screen 0 1024x768x24" \
     dbus-launch --exit-with-session debian/tests/testsuite.xsession

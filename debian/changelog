@@ -2,6 +2,7 @@ nepomuk-core (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update install files.
+  * Update test script.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:08:22 +0100
 
