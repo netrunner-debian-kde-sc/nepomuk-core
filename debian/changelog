@@ -4,6 +4,7 @@ nepomuk-core (4:4.12.2-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update test script.
   * Update symbols file.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:08:22 +0100
 
