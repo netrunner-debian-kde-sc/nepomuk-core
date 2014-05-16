@@ -3,15 +3,18 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>, Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.6),
+Build-Depends: baloo-dev (>= 4:4.13.0),
+               cmake (>= 2.8.6),
                debhelper (>= 9),
                doxygen,
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.13),
                libavformat-dev,
                libepub-dev,
                libexiv2-dev (>= 0.21),
+               libkfilemetadata-dev (>= 4:4.13.0),
                libpoppler-qt4-dev (>= 0.12.1),
+               libqmobipocket-dev,
                libsoprano-dev (>= 2.9.3),
                libtag1-dev,
                libx11-dev,
