@@ -1,10 +1,10 @@
-nepomuk-core (4:4.13.1-1) UNRELEASED; urgency=medium
+nepomuk-core (4:4.13.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update build-dependencies.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 16 May 2014 10:39:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 20:12:21 +0200
 
 nepomuk-core (4:4.12.4-1) unstable; urgency=medium
 
