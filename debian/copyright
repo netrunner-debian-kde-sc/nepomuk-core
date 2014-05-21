@@ -4,10 +4,12 @@ Upstream-Contact: Sebastian Trueg <trueg@kde.org>
 Source: http://ftp.kde.org/pub/kde/
 
 Files: *
-Copyright: 2010,2011 Vishesh Handa <handa.vish@gmail.com>
-           2009-2012 Sebastian Trueg <trueg@kde.org>
+Copyright: 2010-2011 Vishesh Handa <handa.vish@gmail.com>
+           2006-2012 Sebastian Trueg <trueg@kde.org>
            2010      Dario Freddi <drf@kde.org>
-           2011      Serebriyskiy Artem <v.for.vandal@gmail.com>
+           2011-2013 Serebriyskiy Artem <v.for.vandal@gmail.com>
+           2013      David Edmundson <davidedmundson@kde.org>
+           2013      Joerg Ehrichs <joerg.ehrichs@gmx.de>
 License: LGPL-2.1 or LGPL-3
 
 Files: ontologies/*
